@@ -1,5 +1,5 @@
 // 자동 생성: update-data.ps1 (기업마당 지원사업정보 API)
-// 생성 시각: 2026-06-27 16:57:38 · 공고 100건
+// 생성 시각: 2026-06-29 08:07:25 · 공고 100건
 // region/minYears/maxYears/amount 는 API 미제공 항목 → 기본값(공고문 확인 권장)
 const PROGRAMS = [
     {
@@ -15,7 +15,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-06",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123685",
         "keywords":  [
                          "기술",
@@ -46,7 +46,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-03",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123684",
         "keywords":  [
                          "기술",
@@ -79,7 +79,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-10",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123683",
         "keywords":  [
                          "기술",
@@ -111,7 +111,7 @@ const PROGRAMS = [
         "period_end":  null,
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123682",
         "keywords":  [
                          "기술",
@@ -165,7 +165,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-24",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123681",
         "keywords":  [
                          "경영",
@@ -210,7 +210,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-27",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123680",
         "keywords":  [
                          "기술",
@@ -263,7 +263,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-16",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123679",
         "keywords":  [
                          "인력",
@@ -299,7 +299,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-03",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123678",
         "keywords":  [
                          "수출",
@@ -336,7 +336,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-06",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123677",
         "keywords":  [
                          "경영",
@@ -368,7 +368,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-08",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123676",
         "keywords":  [
                          "경영",
@@ -422,7 +422,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-06",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123674",
         "keywords":  [
                          "수출",
@@ -462,7 +462,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-03",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123673",
         "keywords":  [
                          "경영",
@@ -495,7 +495,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-10",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123672",
         "keywords":  [
                          "기술",
@@ -531,7 +531,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-30",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123671",
         "keywords":  [
                          "기술",
@@ -562,7 +562,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-05",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123670",
         "keywords":  [
                          "인력",
@@ -601,7 +601,7 @@ const PROGRAMS = [
         "period_end":  null,
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123669",
         "keywords":  [
                          "기술",
@@ -636,7 +636,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-10",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123668",
         "keywords":  [
                          "기술",
@@ -686,7 +686,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-14",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123667",
         "keywords":  [
                          "기술",
@@ -727,7 +727,7 @@ const PROGRAMS = [
         "period_end":  null,
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123666",
         "keywords":  [
                          "기술",
@@ -763,7 +763,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-01",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123665",
         "keywords":  [
                          "기술",
@@ -812,7 +812,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-08",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123664",
         "keywords":  [
                          "수출",
@@ -858,7 +858,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-17",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123663",
         "keywords":  [
                          "금융",
@@ -904,7 +904,7 @@ const PROGRAMS = [
         "period_end":  null,
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123662",
         "keywords":  [
                          "창업",
@@ -938,7 +938,7 @@ const PROGRAMS = [
         "period_end":  "2026-10-30",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123661",
         "keywords":  [
                          "경영",
@@ -982,7 +982,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-07",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123660",
         "keywords":  [
                          "금융",
@@ -1021,7 +1021,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-10",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123659",
         "keywords":  [
                          "경영",
@@ -1062,7 +1062,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-15",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123657",
         "keywords":  [
                          "경영",
@@ -1120,7 +1120,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-14",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123656",
         "keywords":  [
                          "기술",
@@ -1160,7 +1160,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-14",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123655",
         "keywords":  [
                          "창업",
@@ -1191,7 +1191,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-03",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123654",
         "keywords":  [
                          "수출",
@@ -1234,7 +1234,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-06",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123653",
         "keywords":  [
                          "인력",
@@ -1264,7 +1264,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-01",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123652",
         "keywords":  [
                          "경영",
@@ -1297,7 +1297,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-09",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123651",
         "keywords":  [
                          "기술",
@@ -1336,7 +1336,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-31",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123650",
         "keywords":  [
                          "내수",
@@ -1372,7 +1372,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-10",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123649",
         "keywords":  [
                          "기술",
@@ -1408,7 +1408,7 @@ const PROGRAMS = [
         "period_end":  "2026-08-31",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123648",
         "keywords":  [
                          "기술",
@@ -1457,7 +1457,7 @@ const PROGRAMS = [
         "period_end":  null,
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123647",
         "keywords":  [
                          "인력",
@@ -1495,7 +1495,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-14",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123646",
         "keywords":  [
                          "수출",
@@ -1534,7 +1534,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-08",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123645",
         "keywords":  [
                          "기술",
@@ -1566,7 +1566,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-10",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123644",
         "keywords":  [
                          "경영",
@@ -1599,7 +1599,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-07",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123643",
         "keywords":  [
                          "기술",
@@ -1649,7 +1649,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-03",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123642",
         "keywords":  [
                          "기술",
@@ -1688,7 +1688,7 @@ const PROGRAMS = [
         "period_end":  "2026-06-29",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123641",
         "keywords":  [
                          "기술",
@@ -1722,7 +1722,7 @@ const PROGRAMS = [
         "period_end":  "2026-08-31",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123640",
         "keywords":  [
                          "기술",
@@ -1770,7 +1770,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-20",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123639",
         "keywords":  [
                          "인력",
@@ -1797,7 +1797,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-10",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123638",
         "keywords":  [
                          "기술",
@@ -1848,7 +1848,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-15",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123637",
         "keywords":  [
                          "경영",
@@ -1894,7 +1894,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-17",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123636",
         "keywords":  [
                          "기술",
@@ -1929,7 +1929,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-06",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123635",
         "keywords":  [
                          "수출",
@@ -1980,7 +1980,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-02",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123634",
         "keywords":  [
                          "수출",
@@ -2035,7 +2035,7 @@ const PROGRAMS = [
         "period_end":  "2026-08-07",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123633",
         "keywords":  [
                          "내수",
@@ -2067,7 +2067,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-10",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123632",
         "keywords":  [
                          "경영",
@@ -2113,7 +2113,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-26",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123631",
         "keywords":  [
                          "창업",
@@ -2169,7 +2169,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-10",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123630",
         "keywords":  [
                          "인력",
@@ -2199,7 +2199,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-10",
         "posted_at":  "2026-06-26",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123629",
         "keywords":  [
                          "창업",
@@ -2252,7 +2252,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-15",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123628",
         "keywords":  [
                          "경영",
@@ -2282,7 +2282,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-17",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123627",
         "keywords":  [
                          "수출",
@@ -2317,7 +2317,7 @@ const PROGRAMS = [
         "period_end":  "2026-08-14",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123626",
         "keywords":  [
                          "수출",
@@ -2352,7 +2352,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-03",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123625",
         "keywords":  [
                          "경영",
@@ -2388,7 +2388,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-07",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123624",
         "keywords":  [
                          "수출",
@@ -2438,7 +2438,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-24",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123623",
         "keywords":  [
                          "기술",
@@ -2483,7 +2483,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-02",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123622",
         "keywords":  [
                          "기술",
@@ -2516,7 +2516,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-15",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123621",
         "keywords":  [
                          "금융",
@@ -2545,7 +2545,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-10",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123620",
         "keywords":  [
                          "금융",
@@ -2584,7 +2584,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-10",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123619",
         "keywords":  [
                          "기술",
@@ -2631,7 +2631,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-08",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123618",
         "keywords":  [
                          "기술",
@@ -2662,7 +2662,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-15",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123617",
         "keywords":  [
                          "경영",
@@ -2707,7 +2707,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-10",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123616",
         "keywords":  [
                          "금융",
@@ -2755,7 +2755,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-31",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123615",
         "keywords":  [
                          "인력",
@@ -2802,7 +2802,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-20",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123614",
         "keywords":  [
                          "수출",
@@ -2857,7 +2857,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-16",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123613",
         "keywords":  [
                          "인력",
@@ -2896,7 +2896,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-14",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123612",
         "keywords":  [
                          "내수",
@@ -2948,7 +2948,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-07",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123611",
         "keywords":  [
                          "내수",
@@ -2980,7 +2980,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-01",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123610",
         "keywords":  [
                          "기술",
@@ -3010,7 +3010,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-03",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123609",
         "keywords":  [
                          "창업",
@@ -3053,7 +3053,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-03",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123608",
         "keywords":  [
                          "기술",
@@ -3103,7 +3103,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-08",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123607",
         "keywords":  [
                          "기술",
@@ -3135,7 +3135,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-07",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123606",
         "keywords":  [
                          "경영",
@@ -3171,7 +3171,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-07",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123605",
         "keywords":  [
                          "기술",
@@ -3208,7 +3208,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-01",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123604",
         "keywords":  [
                          "인력",
@@ -3259,7 +3259,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-15",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123603",
         "keywords":  [
                          "기술",
@@ -3293,7 +3293,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-05",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123602",
         "keywords":  [
                          "기술",
@@ -3342,7 +3342,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-03",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123601",
         "keywords":  [
                          "수출",
@@ -3395,7 +3395,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-08",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123600",
         "keywords":  [
                          "경영",
@@ -3425,7 +3425,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-10",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123599",
         "keywords":  [
                          "경영",
@@ -3456,7 +3456,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-08",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123598",
         "keywords":  [
                          "기술",
@@ -3492,7 +3492,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-05",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123597",
         "keywords":  [
                          "기술",
@@ -3550,7 +3550,7 @@ const PROGRAMS = [
         "period_end":  null,
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123596",
         "keywords":  [
                          "경영",
@@ -3594,7 +3594,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-08",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123595",
         "keywords":  [
                          "기술",
@@ -3625,7 +3625,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-08",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123594",
         "keywords":  [
                          "수출",
@@ -3661,7 +3661,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-03",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123593",
         "keywords":  [
                          "기술",
@@ -3714,7 +3714,7 @@ const PROGRAMS = [
         "period_end":  null,
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123592",
         "keywords":  [
                          "금융",
@@ -3749,7 +3749,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-14",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123591",
         "keywords":  [
                          "경영",
@@ -3780,7 +3780,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-06",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123590",
         "keywords":  [
                          "수출",
@@ -3835,7 +3835,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-03",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123589",
         "keywords":  [
                          "수출",
@@ -3886,7 +3886,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-09",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123588",
         "keywords":  [
                          "기술",
@@ -3930,7 +3930,7 @@ const PROGRAMS = [
         "period_end":  "2026-11-30",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123587",
         "keywords":  [
                          "경영",
@@ -3965,7 +3965,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-10",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123585",
         "keywords":  [
                          "기술",
@@ -4001,7 +4001,7 @@ const PROGRAMS = [
         "period_end":  "2026-07-03",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123584",
         "keywords":  [
                          "기술",
@@ -4040,7 +4040,7 @@ const PROGRAMS = [
         "period_end":  "2026-06-29",
         "posted_at":  "2026-06-25",
         "verified":  true,
-        "checked_at":  "2026-06-27",
+        "checked_at":  "2026-06-29",
         "source_url":  "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123582",
         "keywords":  [
                          "수출",
