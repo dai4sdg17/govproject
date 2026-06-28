@@ -1,0 +1,11 @@
+# 비밀: 기업마당 API 인증키 (절대 커밋 금지)
+apikey.txt
+
+# 자동 생성/임시 산출물
+last_raw.json
+*.bak
+data.js.bak
+
+# OS
+Thumbs.db
+.DS_Store

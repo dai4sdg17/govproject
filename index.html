@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>딱맞는지원 — 나에게 맞는 정부지원사업 찾기</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <!-- 상단 바 -->
+    <header class="appbar">
+      <div class="brand">🎯 딱맞는지원</div>
+      <div class="updated" id="updatedLabel"></div>
+    </header>
+
+    <!-- ===== 화면 1: 조건 입력 ===== -->
+    <section class="view" id="view-input">
+      <h1 class="view-title">내 조건 입력</h1>
+      <p class="view-sub">조건을 저장하면 맞는 정부지원사업을 자동으로 찾아드려요.</p>
+
+      <form id="conditionForm" class="form">
+        <label class="field-label" for="region">지역</label>
+        <select id="region" class="control">
+          <option value="전국">전국 (지역 무관)</option>
+          <option value="서울">서울</option>
+          <option value="경기">경기</option>
+          <option value="대구">대구</option>
+          <option value="광주">광주</option>
+          <option value="부산">부산</option>
+          <option value="인천">인천</option>
+          <option value="대전">대전</option>
+        </select>
+
+        <label class="field-label" for="years">업력 (년차)</label>
+        <input type="number" id="years" class="control" min="0" max="30" value="3" inputmode="numeric">
+
+        <span class="field-label">분야 <span class="hint">(다중 선택)</span></span>
+        <div class="chips" id="categoryChips">
+          <label class="chip"><input type="checkbox" value="R&D" checked> R&amp;D</label>
+          <label class="chip"><input type="checkbox" value="자금" checked> 자금</label>
+          <label class="chip"><input type="checkbox" value="판로"> 판로</label>
+          <label class="chip"><input type="checkbox" value="인력"> 인력</label>
+          <label class="chip"><input type="checkbox" value="창업"> 창업</label>
+        </div>
+
+        <label class="field-label" for="features">회사 특징 <span class="hint">(자유롭게)</span></label>
+        <textarea id="features" class="control" rows="3"
+          placeholder="예) AI 기반 물류 SaaS, 특허 2건, 수출 준비 중…"></textarea>
+
+        <button type="submit" class="btn btn-primary">내 조건 저장하고 찾기</button>
+      </form>
+    </section>
+
+    <!-- ===== 화면 2: 결과 목록 ===== -->
+    <section class="view" id="view-results" hidden>
+      <div class="results-head">
+        <h1 class="view-title">맞는 사업 <span id="resultCount" class="accent">0</span>건</h1>
+      </div>
+      <div id="newBanner" class="new-banner" hidden>
+        <span id="newBannerText"></span>
+        <button type="button" id="newToggle" class="banner-toggle"></button>
+      </div>
+      <div id="resultList" class="card-list"></div>
+      <div id="resultEmpty" class="empty" hidden>
+        <div class="empty-ic">⌕</div>
+        <p class="empty-title">조건에 딱 맞는 사업이 적네요</p>
+        <p class="empty-msg">지역을 ‘전국’으로 넓히거나 업력 조건을 풀어보세요.</p>
+        <button class="btn btn-ghost btn-sm" id="relaxBtn">조건 다시 입력</button>
+      </div>
+    </section>
+
+    <!-- ===== 화면 3: 공고 상세 ===== -->
+    <section class="view" id="view-detail" hidden>
+      <button class="back" id="backBtn">‹ 결과로 돌아가기</button>
+      <div id="detailBody"></div>
+    </section>
+
+    <!-- ===== 화면 4: 관심 목록 ===== -->
+    <section class="view" id="view-favorites" hidden>
+      <h1 class="view-title">관심 사업</h1>
+      <p class="view-sub">마감 임박 순으로 정렬됩니다.</p>
+      <div id="favoriteList" class="card-list"></div>
+      <div id="favoriteEmpty" class="empty" hidden>
+        <div class="empty-ic">♡</div>
+        <p class="empty-msg">관심 있는 사업을 ♡로 저장하면 여기에 모입니다.</p>
+      </div>
+    </section>
+
+    <!-- 하단 탭바 -->
+    <nav class="tabbar">
+      <button class="tab" data-view="input"><span class="tab-ic">✎</span>조건</button>
+      <button class="tab" data-view="results"><span class="tab-ic">▤</span>결과</button>
+      <button class="tab" data-view="favorites"><span class="tab-ic">♡</span>관심</button>
+    </nav>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
