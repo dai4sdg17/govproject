@@ -7,7 +7,8 @@ param(
   [int]$Count = 100,                              # 가져올 공고 수
   [string]$Keyword = "",                          # 해시태그/키워드 필터(선택)
   [string]$KeyFile = "$PSScriptRoot\apikey.txt",  # 인증키 파일
-  [string]$OutFile = "$PSScriptRoot\data.js"      # 출력 파일
+  [string]$OutFile = "$PSScriptRoot\data.js",     # 출력 파일
+  [switch]$NoPush                                 # 지정 시 git 커밋·푸시 생략
 )
 $ErrorActionPreference = "Stop"
 $host.UI.RawUI.WindowTitle = "GovProject 공고 자동 갱신"
@@ -115,11 +116,25 @@ foreach ($it in $items) {
   }
 }
 
-# ── 5. data.js 생성 (기존 백업) ──────────────────────────────
-if (Test-Path $OutFile) { Copy-Item $OutFile "$OutFile.bak" -Force }
-
+# ── 5. 변경 감지 (타임스탬프 제외, 공고 내용만 비교) ─────────
 # 1건이어도 배열로 직렬화
 $json = ConvertTo-Json @($programs) -Depth 5
+
+# 공고 내용(JSON)의 해시로 실제 변경 여부 판단 → 타임스탬프만 바뀐 빈 커밋 방지
+$hashFile = Join-Path $PSScriptRoot ".data.hash"
+$bytes = [Text.Encoding]::UTF8.GetBytes($json)
+$ms = New-Object IO.MemoryStream(,$bytes)
+$newHash = (Get-FileHash -InputStream $ms -Algorithm SHA256).Hash
+$oldHash = if (Test-Path $hashFile) { (Get-Content $hashFile -Raw).Trim() } else { "" }
+$changed = ($newHash -ne $oldHash)
+
+if (-not $changed) {
+  Write-Host "[3/4] 공고 내용 변경 없음 — data.js/커밋 생략 ($($programs.Count)건)"
+  exit 0
+}
+
+# ── 6. data.js 생성 (기존 백업) ──────────────────────────────
+if (Test-Path $OutFile) { Copy-Item $OutFile "$OutFile.bak" -Force }
 $header = "// 자동 생성: update-data.ps1 (기업마당 지원사업정보 API)`r`n" +
           "// 생성 시각: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') · 공고 $($programs.Count)건`r`n" +
           "// region/minYears/maxYears/amount 는 API 미제공 항목 → 기본값(공고문 확인 권장)`r`n"
@@ -128,7 +143,30 @@ $content = $header + "const PROGRAMS = " + $json + ";`r`n"
 # UTF-8 (BOM 없이) 저장 — 브라우저 <script> 호환
 $enc = New-Object System.Text.UTF8Encoding($false)
 [System.IO.File]::WriteAllText($OutFile, $content, $enc)
+Set-Content -Path $hashFile -Value $newHash -NoNewline -Encoding utf8
+Write-Host "[3/4] data.js 갱신 완료: $($programs.Count)건 (변경 감지됨)"
 
-Write-Host "[3/4] data.js 갱신 완료: $($programs.Count)건"
-Write-Host "[4/4] 백업: $OutFile.bak | 원본응답: last_raw.json"
-Write-Host "완료. 브라우저에서 index.html 을 새로고침하세요."
+# ── 7. git 커밋·푸시 (변경 시에만) ───────────────────────────
+if ($NoPush) {
+  Write-Host "[4/4] -NoPush 지정 — 커밋·푸시 생략. 백업: $OutFile.bak"
+  exit 0
+}
+if (-not (Test-Path (Join-Path $PSScriptRoot ".git"))) {
+  Write-Host "[4/4] git 저장소가 아님 — 커밋·푸시 생략."
+  exit 0
+}
+Push-Location $PSScriptRoot
+try {
+  & git add -- data.js
+  & git commit -q -m "데이터 자동 갱신: $($programs.Count)건 ($(Get-Date -Format 'yyyy-MM-dd HH:mm'))"
+  & git push -q origin main
+  if ($LASTEXITCODE -eq 0) {
+    Write-Host "[4/4] git 푸시 완료 → GitHub Pages 자동 반영(빌드 ~1분)."
+  } else {
+    Write-Host "[경고] git push 실패(exit $LASTEXITCODE). 네트워크/인증을 확인하세요."
+  }
+} catch {
+  Write-Host "[경고] git 작업 실패: $($_.Exception.Message)"
+} finally {
+  Pop-Location
+}

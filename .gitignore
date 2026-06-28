@@ -5,6 +5,7 @@ apikey.txt
 last_raw.json
 *.bak
 data.js.bak
+.data.hash
 
 # OS
 Thumbs.db
